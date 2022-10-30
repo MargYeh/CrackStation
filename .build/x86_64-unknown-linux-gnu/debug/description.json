@@ -1,0 +1,472 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.xctest",
+      "productName" : "CrackStationPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation_CrackStation.resources/data.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/Sources/CrackStation/data.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation_CrackStation.resources/data.json"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "CrackStationPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CrackStation-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "importPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/Sources/CrackStation/CrackStation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/Sources/CrackStation/Decrypter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<CrackStation-debug.module-resources>"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CrackStation",
+      "moduleOutputPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.swiftmodule",
+      "objects" : [
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/CrackStation.swift.o",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/Decrypter.swift.o",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/CrackStation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/Decrypter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/code/CrackStation/Sources/CrackStation/CrackStation.swift",
+        "/code/CrackStation/Sources/CrackStation/Decrypter.swift",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CrackStationPackageDiscoveredTests-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "importPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/CrackStationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CrackStationPackageDiscoveredTests",
+      "moduleOutputPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.build/CrackStationTests.swift.o",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.build/CrackStationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/CrackStationTests.swift",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/all-discovered-tests.swift"
+      ],
+      "tempsPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CrackStationPackageTests-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "importPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CrackStationPackageTests",
+      "moduleOutputPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.swiftmodule",
+      "objects" : [
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CrackStationTests-debug.module" : {
+      "executable" : "/usr/bin/swiftc",
+      "importPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/Tests/CrackStationTests/CrackStationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CrackStationTests",
+      "moduleOutputPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.swiftmodule",
+      "objects" : [
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.build/CrackStationTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.build/CrackStationTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/code/CrackStation/Tests/CrackStationTests/CrackStationTests.swift"
+      ],
+      "tempsPath" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CrackStation" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "CrackStation",
+      "-incremental",
+      "-c",
+      "/code/CrackStation/Sources/CrackStation/CrackStation.swift",
+      "/code/CrackStation/Sources/CrackStation/Decrypter.swift",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ],
+    "CrackStationPackageDiscoveredTests" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "CrackStationPackageDiscoveredTests",
+      "-incremental",
+      "-c",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/CrackStationTests.swift",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ],
+    "CrackStationPackageTests" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "CrackStationPackageTests",
+      "-incremental",
+      "-c",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.derived/runner.swift",
+      "-I",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ],
+    "CrackStationTests" : [
+      "/usr/bin/swiftc",
+      "-module-name",
+      "CrackStationTests",
+      "-incremental",
+      "-c",
+      "/code/CrackStation/Tests/CrackStationTests/CrackStationTests.swift",
+      "-I",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-swift-version",
+      "5",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-g",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-driver-use-frontend-path",
+      "/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CrackStation" : [
+
+    ],
+    "CrackStationPackageDiscoveredTests" : [
+      "CrackStationTests",
+      "CrackStation"
+    ],
+    "CrackStationPackageTests" : [
+      "CrackStationPackageDiscoveredTests",
+      "CrackStationTests",
+      "CrackStation"
+    ],
+    "CrackStationTests" : [
+      "CrackStation"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationTests.build/CrackStationTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/CrackStationTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStationPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/master.swiftdeps"
+  },
+  "/code/CrackStation/Sources/CrackStation/CrackStation.swift": {
+    "dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/CrackStation.d",
+    "object": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/CrackStation.swift.o",
+    "swiftmodule": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/CrackStation~partial.swiftmodule",
+    "swift-dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/CrackStation.swiftdeps"
+  },
+  "/code/CrackStation/Sources/CrackStation/Decrypter.swift": {
+    "dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/Decrypter.d",
+    "object": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/Decrypter.swift.o",
+    "swiftmodule": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/Decrypter~partial.swiftmodule",
+    "swift-dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/Decrypter.swiftdeps"
+  },
+  "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/resource_bundle_accessor.d",
+    "object": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/resource_bundle_accessor.swiftdeps"
+  }
+}

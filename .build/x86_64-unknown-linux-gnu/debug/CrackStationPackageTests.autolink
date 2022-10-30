@@ -1,0 +1,15 @@
+-lswift_StringProcessing
+-lswift_RegexParser
+-lXCTest
+-lswiftGlibc
+-lm
+-lpthread
+-lutil
+-ldl
+-lFoundation
+-lswiftDispatch
+-ldispatch
+-lBlocksRuntime
+-lswift_Concurrency
+-lswiftCore
+-lswiftSwiftOnoneSupport

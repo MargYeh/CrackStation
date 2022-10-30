@@ -1,0 +1,6 @@
+version: "Swift version 5.8-dev (LLVM d90179316c5e50b, Swift 39059555891a358)"
+options: "638574987b6963061414c15499517f505d6f7489d9b5f171e6ab5b9015b551d3"
+build_start_time: [1667122659, 824481000]
+build_end_time: [1667122660, 456285000]
+inputs:
+  "/code/CrackStation/Tests/CrackStationTests/CrackStationTests.swift": [1667122571, 0]
