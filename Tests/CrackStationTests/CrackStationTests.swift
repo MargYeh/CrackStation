@@ -1,5 +1,5 @@
 import XCTest
-@testable import CrackStation
+import CrackStation
 
 final class CrackStationTests: XCTestCase {
     func testPositive() throws {
@@ -15,6 +15,13 @@ final class CrackStationTests: XCTestCase {
         // When
         let crack_station = CrackStation()
 	    let checkHash = crack_station.decrypt(shaHash: "1231")
+        //Then
+        XCTAssertNil(checkHash)
+    }
+    func testEmpty() throws {
+        // When
+        let crack_station = CrackStation()
+	    let checkHash = crack_station.decrypt(shaHash: "")
         //Then
         XCTAssertNil(checkHash)
     }
