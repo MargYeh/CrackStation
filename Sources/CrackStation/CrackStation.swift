@@ -1,8 +1,8 @@
 import Foundation
  
-class CrackStation: Decrypter {
+public class CrackStation: Decrypter {
 
-    required init() {
+    required public init() {
     }
 
     public func decrypt(shaHash: String) -> String? {

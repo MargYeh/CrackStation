@@ -1,5 +1,5 @@
 import XCTest
-@testable import CrackStation
+import CrackStation
 
 final class CrackStationTests: XCTestCase {
     func testPositive() throws {
