@@ -1,11 +1,11 @@
 import Foundation
  
-class CrackStation: Decrypter {
+public class CrackStation: Decrypter {
 
-    required init() {
+    required public init() {
     }
 
-    static func loadDictionaryFromDisk() throws -> [String : String] {
+    static public func loadDictionaryFromDisk() throws -> [String : String] {
       guard let path = Bundle.module.url(forResource: "data", withExtension: "json") else { return [:] }
 
       let data = try Data(contentsOf: path)
@@ -18,7 +18,7 @@ class CrackStation: Decrypter {
       }
     }
 
-    func decrypt(shaHash: String) -> String? {
+    public func decrypt(shaHash: String) -> String? {
       do {
         let lookupTable = try CrackStation.loadDictionaryFromDisk()
               if lookupTable.keys.contains(shaHash) {
