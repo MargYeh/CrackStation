@@ -1,8 +1,8 @@
 version: "Swift version 5.8-dev (LLVM d90179316c5e50b, Swift 39059555891a358)"
 options: "25a62a1fa2a3460c87e93069ffe755dd9e86f12b6f9741eae3355d452ff4778d"
-build_start_time: [1668019803, 485798000]
-build_end_time: [1668019804, 145349000]
+build_start_time: [1668924483, 506717000]
+build_end_time: [1668924484, 207890000]
 inputs:
   "/code/CrackStation/.build/x86_64-unknown-linux-gnu/debug/CrackStation.build/DerivedSources/resource_bundle_accessor.swift": [1667160172, 0]
-  "/code/CrackStation/Sources/CrackStation/CrackStation.swift": [1668019800, 0]
+  "/code/CrackStation/Sources/CrackStation/CrackStation.swift": [1668924480, 0]
   "/code/CrackStation/Sources/CrackStation/Decrypter.swift": [1667159926, 0]

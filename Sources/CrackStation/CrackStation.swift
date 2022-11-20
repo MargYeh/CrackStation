@@ -1,8 +1,15 @@
 import Foundation
  
 public class CrackStation: Decrypter {
+    var sha1sha256dict: [String:String] = [:]
 
     required public init() {
+      //var sha1hashdict: [String:String] = [:]
+      do {
+        sha1sha256dict = try CrackStation.loadDictionaryFromDisk()
+      } catch {
+        print("Error catch on loadDictionaryFromDisk")
+      }
     }
 
     static public func loadDictionaryFromDisk() throws -> [String : String] {
@@ -19,19 +26,20 @@ public class CrackStation: Decrypter {
     }
 
     public func decrypt(shaHash: String) -> String? {
-      do {
-        let lookupTable = try CrackStation.loadDictionaryFromDisk()
-              if lookupTable.keys.contains(shaHash) {
-          let answer = lookupTable[shaHash]
-          return(answer!)
-        }
-        else {
-          return nil
-        }
-      }
-      catch {
-        print("Error loading lookup table from disk: \(error)")
-        return "Error loading lookup table from disk: \(error)"
-      }
+      return sha1sha256dict[shaHash]
+      // do {
+      //   let lookupTable = try CrackStation.loadDictionaryFromDisk()
+      //         if lookupTable.keys.contains(shaHash) {
+      //     let answer = lookupTable[shaHash]
+      //     return(answer!)
+      //   }
+      //   else {
+      //     return nil
+      //   }
+      // }
+      // catch {
+      //   print("Error loading lookup table from disk: \(error)")
+      //   return "Error loading lookup table from disk: \(error)"
+      // }
     }
 }
