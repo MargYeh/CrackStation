@@ -7,7 +7,9 @@ fileprivate extension CrackStationTests {
         ("testEmpty", testEmpty),
         ("testLoadingLookupTableFromDisk", testLoadingLookupTableFromDisk),
         ("testNegative", testNegative),
-        ("testPositive", testPositive),
+        ("testPositive1sha1", testPositive1sha1),
+        ("testPositive2sha256", testPositive2sha256),
+        ("testPositive3sha1", testPositive3sha1),
     ]
 }
 @available(*, deprecated, message: "Not actually deprecated. Marked as deprecated to allow inclusion of deprecated tests (which test deprecated functionality) without warnings")
