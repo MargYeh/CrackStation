@@ -10,7 +10,7 @@ POCv3 (current): Allows input for 1,2,3 character hashes for both SHA1 and SHA25
 This is a Public API package that can be integrated into other targets through import CrackStation and by adding CrackStation into the list of dependencies. 
 
 # Version
-3.0.1
+3.0.2
 
 # Author
 Margaret Yeh

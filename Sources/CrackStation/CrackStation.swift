@@ -1,7 +1,7 @@
 import Foundation
  
 public class CrackStation: Decrypter {
-    var sha1sha256dict: [String:String] = [:]
+    private var sha1sha256dict: [String:String] = [:]
 
     required public init() {
       do {
