@@ -23,7 +23,7 @@ public class CrackStation: Decrypter {
           return [:]
       }
     }
-
+ 
     public func decrypt(shaHash: String) -> String? {
       return sha1sha256dict[shaHash]
     }

@@ -4,13 +4,13 @@
 Takes an input SHA1 hash and outputs the corresponding character.
 POCv1: Allows input for single character hashes (a-z, A-Z, 0-9).
 POCv2: Allows input for 1,2 character hashes
-POCv3 (current): Allows input for 1,2,3 character hashes for both SHA1 and SHA256
+POCv3 (current): Allows input for 1,2,3 character hashes for both SHA1 and SHA256. Also adds characters ? and !
 
 # Usage
 This is a Public API package that can be integrated into other targets through import CrackStation and by adding CrackStation into the list of dependencies. 
 
 # Version
-3.0.2
+3.0.3
 
 # Author
 Margaret Yeh
