@@ -17,33 +17,33 @@ The purpose for the creation of this library was an educational experience in co
 ## Installation
 
 ### Swift Package Manager
-The Swift Package Manager is "a tool for managing the distrivution of Swift code. It's integrated with the Swift buildsystem to automate the process of downloading, compiling, and linking dependicies."
+The [Swift Package Manager](https://www.swift.org/package-manager/) is "a tool for managing the distrivution of Swift code. It's integrated with the Swift buildsystem to automate the process of downloading, compiling, and linking dependicies."
 
-Once you have your Swift package set up, add CrackStation to the list of dependencies in your 'Package.swift' file:
-'''
+Once you have your Swift package set up, add CrackStation to the list of dependencies in your `Package.swift` file:
+```
 dependencies: [ 
     .package(url: "git@github.com:MargYeh/CrackStation", .upToNextMajor(from: "3.0.0"))
 ]
-'''
+```
 
 ## Usage
 ### The API
 The API contains two functions, 'init' which creates the decrypter and 'decrypt' which decrypts hashes back to plain-text passwords.
 Init function signature:
-...
+```
 init()
-...
+```
 Decrypt function signature takes in the hash as a string and returns the password as a string: 
-...
+```
 func decrypt(shaHash: String) -> String?
-...
+```
 
 ### Example usage
-...
+```
 import CrackStation
 let crack_station = CrackStation()
 let checkHash = crack_station.decrypt(shaHash: "468415f0e1128f85022b1e20e662626a3c5a77a97e33facd9064a82e0a7a71be")
-...
+```
 
 # Author
 Margaret Yeh
