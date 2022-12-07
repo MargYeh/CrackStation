@@ -29,6 +29,14 @@ final class CrackStationTests: XCTestCase {
         XCTAssertNotNil(checkHash)
         XCTAssert(checkHash == "S8f")
     }
+    func testQuestion() throws {
+        //When
+        let crack_station = CrackStation()
+        let checkHash = crack_station.decrypt(shaHash: "ed1612bf41191bd374cc77d70450c968d3a22105a622e43ed143c6f9acc6aba8")
+
+        XCTAssertNotNil(checkHash)
+        XCTAssert(checkHash == "!?3")
+    }
     func testNegative() throws {
         // When
         let crack_station = CrackStation()
@@ -42,15 +50,5 @@ final class CrackStationTests: XCTestCase {
 	    let checkHash = crack_station.decrypt(shaHash: "")
         //Then
         XCTAssertNil(checkHash)
-    }
-    func testLoadingLookupTableFromDisk() throws {
-        // When
-        let lookupTable = try CrackStation.loadDictionaryFromDisk()
-        let answer = lookupTable["9a79be611e0267e1d943da0737c6c51be67865a0"]
-
-        //Then
-        XCTAssertEqual(answer, "99")
-    }
-
-   
+    }  
 }
