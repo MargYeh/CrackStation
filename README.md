@@ -16,7 +16,7 @@ The purpose for the creation of this library was an educational experience in co
 ## Installation
 
 ### Swift Package Manager
-The [Swift Package Manager](https://www.swift.org/package-manager/) is "a tool for managing the distribution of Swift code. It's integrated with the Swift build system to automate the process of downloading, compiling, and linking dependicies."
+The [Swift Package Manager](https://www.swift.org/package-manager/) is "a tool for managing the distribution of Swift code. It's integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies."
 
 Once you have your Swift package set up, add CrackStation to the list of dependencies in your `Package.swift` file:
 ```
