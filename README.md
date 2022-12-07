@@ -28,11 +28,12 @@ dependencies: [
 ## Usage
 ### The API
 The API contains two functions, 'init' which creates the decrypter and 'decrypt' which decrypts hashes back to plain-text passwords.
+
 Init function signature:
 ```
 init()
 ```
-Decrypt function signature takes in the hash as a string and returns the password as a string: 
+Decrypt function signature: Takes in the hash as a String and returns the password as a String
 ```
 func decrypt(shaHash: String) -> String?
 ```
