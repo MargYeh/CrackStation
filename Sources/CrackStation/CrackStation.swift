@@ -1,17 +1,17 @@
 import Foundation
  
 public class CrackStation: Decrypter {
-    private var sha1sha256dict: [String:String] = [:]
-
+    private let sha1sha256dict: [String:String]
     required public init() {
       do {
         sha1sha256dict = try CrackStation.loadDictionaryFromDisk()
       } catch {
+        sha1sha256dict = [:]
         print("Error catch on loadDictionaryFromDisk")
       }
     }
 
-    static public func loadDictionaryFromDisk() throws -> [String : String] {
+    static private func loadDictionaryFromDisk() throws -> [String : String] {
       guard let path = Bundle.module.url(forResource: "data", withExtension: "json") else { return [:] }
 
       let data = try Data(contentsOf: path)
