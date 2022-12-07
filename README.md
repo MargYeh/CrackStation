@@ -6,10 +6,9 @@ This library takes in a SHA1 or SHA256 hash and outputs the corresponding passwo
 This is a project created by Margaret Yeh for CS561 Software Engineering Methods in Fall 2022. 
 
 The individual steps of the project were as follows:
-Takes an input SHA1 hash and outputs the corresponding character.
-POCv1: Allows input for single character hashes (a-z, A-Z, 0-9).
-POCv2: Allows input for 1,2 character hashes
-POCv3 (current): Allows input for 1,2,3 character hashes for both SHA1 and SHA256. Also can decrypt characters ? and !
+-POCv1: Allows input for single character hashes (a-z, A-Z, 0-9).
+-POCv2: Allows input for 1,2 character hashes
+-POCv3 (current): Allows input for 1,2,3 character hashes for both SHA1 and SHA256. Also can decrypt characters ? and !
 
 ## Mission Statement
 The purpose for the creation of this library was an educational experience in coding in an unfamiliar language and utilizing the Github Flow branching model. 
