@@ -1,6 +1,6 @@
 # CrackStation, a Decrypter implementation
 
-This library takes in a SHA1 or SHA256 hash and outputs the corresponding password as a string (Maximum of 3 characters long). 
+This Swift library takes in a SHA1 or SHA256 hash and outputs the corresponding password as a string (Maximum of 3 characters long). 
 
 ## Overview
 This is a project created by Margaret Yeh for CS561 Software Engineering Methods in Fall 2022. 
